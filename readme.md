@@ -24,7 +24,7 @@ A simple REST API for managing tasks, built as a Spring Boot learning exercise.
 
 ## Validation
 
-The `title` field cannot be empty.
+The `title` field cannot be empty nor null.
 
 If validation fails, the API returns a `400 Bad Request` response with a clear error message.
 
