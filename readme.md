@@ -1,6 +1,6 @@
 # Todo List API
 
-A simple REST API for managing tasks, built as a Spring Boot learning exercise.
+A simple REST API for managing tasks
 
 ## Features
 
