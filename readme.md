@@ -22,6 +22,22 @@ A simple REST API for managing tasks
 | PUT | `/api/tasks/{id}/complete` | Mark a task as completed |
 | GET | `/api/tasks/overdue` | Retrieve overdue tasks |
 
+
+## API Documentation
+
+The API is documented using OpenAPI and Swagger UI.
+
+Once the application is running, the interactive API documentation is available at:
+
+`http://localhost:8080/swagger-ui.html`
+
+
+The OpenAPI specification is also available at:
+
+`http://localhost:8080/v3/api-docs`
+
+
+
 ## Validation
 
 The `title` field cannot be empty nor null.
@@ -42,6 +58,8 @@ Title cannot be blank
 - Spring Data JPA
 - H2 Database
 - Maven
+- OpenAPI
+- Swagger UI
 
 ## Project Initialization
 
